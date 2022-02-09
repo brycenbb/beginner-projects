@@ -1,0 +1,30 @@
+This file is going to be a quick overview of what I learned from making the projects in this beginning period of my learning.
+
+tellingtime: 
+    -This taught me about how Python formats its print statements, specifically around using commas to include variable values
+    as well as the ability of using " or ' for strings and how they nest inside eachother.
+    -It also taught me about taking input from the terminal
+    -This was an intro to the isnumeric, isalpha, etc functions which at this time I think are great for categorizing input
+    -This was an intro to the name == main thing, and a youtube video telling about how it makes python distinguish between
+     the file being ran as is and the file being imported.
+    -Taught me about using a while loop to repeatedly run the game until the user quits
+guessNumber:
+    -Imports, specifically the syntax and how importing * lets you bypass referencing it in commands
+    -Introduction to the random package, specifically randint
+    -Where I learned what tkinter was but have not learned it
+rps:
+    -Learned that you can place text inside input() which looks way nicer than having a print statement after
+    -Learned about how to format new lines using \n, and that print statements have \n automatically at the end
+    -Learned that python greys out text that is impossible to reach, which is very nice
+    -Learned about conditionals with multiple conditions at once
+    -First attempt at making a list of affirmative answers rather than just polling Y/N from the user to continue, 
+     in an attempt to make it more natural. Might be worth importing a list of affirmative words and just iterating it
+hangman:
+    -First and foremost, first try at using comments, learning that ''' and # both work
+    -The value of using multiple functions to keep code looking nice is great
+    -Realized that I should have used guard clauses, learned from youtube. Basically just inverting conditionals to keep
+     the majority of code outside of a conditional, thereby reducing indents
+    -Experience working with strings and lists and manipulating them. Learned about replacing a certain character in a strings
+    -Learned about .lower() and .upper() for using string comparisons and .isalpha()
+    -Learned that += and =+ are very different and the latter is kind of useless, it shouldnt work Imports
+    -Taught me that I shoud learn tkinter soon cause formatting to look nice is a pain in a termianl
