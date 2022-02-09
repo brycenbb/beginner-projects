@@ -2,7 +2,7 @@ from random import *
 from words import wordlist
 
 def playgame(lives):
-    if lives > 25:
+    if lives > 15:
         lives = 15
         print("\nSorry, lives have been set to the maximum of 15")
     
