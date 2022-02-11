@@ -28,3 +28,12 @@ hangman:
     -Learned about .lower() and .upper() for using string comparisons and .isalpha()
     -Learned that += and =+ are very different and the latter is kind of useless, it shouldnt work Imports
     -Taught me that I shoud learn tkinter soon cause formatting to look nice is a pain in a termianl
+palimdrome:
+    -Accessing string elements syntax, [ vs ). 
+    -"".join can be used to get rid of unwanted characters in conjunction with the is.alnum() family group. 
+    -Replace can easily remove whitespace from a string.
+    -Learned from the training website that string_name[::-1] produces the string in reverse order! This is very different from
+     I went about doing mine in a for loop, but according to them this difference comes down to saving space or not as their
+     method uses more space in the creation of a second string. This is sort-of frivolous as strings aren't that big anyway.
+    -I used 3 lines of code to get rid of whitespace, to lowercase everything, and to check if it is alphanumeric. I could
+     do this in just one line of code using new_str = "".join(c.lower() for c in str if c.isalpha())
